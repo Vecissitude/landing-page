@@ -1,0 +1,54 @@
+html {
+  width: 100%;
+  height: 100%;
+	}
+
+body{
+	width: 100%;
+  	height: 100%;
+	background: url(header.jpg) no-repeat center center fixed;
+  	-webkit-background-size:cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	}
+
+.container,.row {
+	height: 100%;
+	}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	margin-top: 8%;
+  	}
+
+hr {
+	border-color: rgb(255, 106, 51);
+	border-width: 3px;
+	max-width: 60px; 
+	}
+
+.btn-primary {
+	background-color: rgb(255, 106, 51);
+	border-color: rgb(255, 106, 51);
+	text-align: center;
+	margin-top: .2em;
+	padding: 1em 2em;
+	border-radius:40px;
+	}
+
+.btn-primary:hover {
+	background-color: rgb(255, 68, 0);
+	border-color:rgb(255, 68, 0);
+	border-width: 5px;
+	}
+
+.btn-primary:active {
+	background-color: rgb(255, 68, 0) !important;
+	border-color:rgb(255, 68, 0) !important;
+	border-width: 5px;
+}
